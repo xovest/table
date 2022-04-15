@@ -1,3 +1,5 @@
+import './Sort.css';
+
 function Sort() {
   function sortTableByColumn(table, column, asc = true) {
     const dirModifier = asc ? 1 : -1;
@@ -35,9 +37,56 @@ function Sort() {
       sortTableByColumn(tableEl, headerIndex, !currentIsAscending);
     });
   });
-  
-  return (
 
+  return (
+    <table>
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Country</th>
+          <th>Team</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Topson</td>
+          <td>23</td>
+          <td>Finland</td>
+          <td>OG</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>MidOne</td>
+          <td>25</td>
+          <td>Malaysia</td>
+          <td>SMG</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Puppey</td>
+          <td>31</td>
+          <td>Estonia</td>
+          <td>Secret</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Sccc</td>
+          <td>26</td>
+          <td>China</td>
+          <td>Newbee</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>SumaiL</td>
+          <td>22</td>
+          <td>Pakistan</td>
+          <td>OG</td>
+        </tr>
+      </tbody>
+    </table>
   )
 }
 
