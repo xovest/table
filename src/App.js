@@ -1,10 +1,15 @@
 import './App.css';
+import Drag from './table/Drag';
+import Rows from './table/Rows';
+import Sort from './table/Sort';
 
 function App() {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Rows />
+      {/* <Drag />
+      <Sort />  */}
+    </>
   );
 }
 
