@@ -45,6 +45,7 @@ function App() {
     }
   }
 
+  // need to like add the drag and sort thing to this table but make it an actual table before doing anything
   return (
     <div className='App'>
       <header>
