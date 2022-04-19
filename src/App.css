@@ -45,6 +45,7 @@ form button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .todo-list {
@@ -83,6 +84,7 @@ form button:hover {
 
 .todo-item {
   padding: 0rem 0.5rem;
+  list-style-type: none;
 }
 
 .fa-trash, 
